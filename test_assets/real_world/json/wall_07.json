@@ -1,0 +1,115 @@
+{
+  "element_id": "E007",
+  "label": "wall",
+  "location": "bbox [140, 10, 340, 630]",
+  "status": "PASS",
+  "deviation": 0.9803921568627446,
+  "expected": null,
+  "unit": "cm/m",
+  "reason": null,
+  "measurements": [
+    {
+      "name": "plumb_angle_deg",
+      "value": 0.56,
+      "unit": "deg",
+      "estimated": false,
+      "confidence": 0.95,
+      "evidence": [
+        "Found 11 vertical edges",
+        "Deviation: 0.56\u00b0"
+      ],
+      "details": {
+        "line_count": 11,
+        "lines": [
+          [
+            37,
+            259,
+            37,
+            160
+          ],
+          [
+            109,
+            208,
+            110,
+            321
+          ],
+          [
+            50,
+            308,
+            51,
+            421
+          ],
+          [
+            75,
+            401,
+            76,
+            514
+          ],
+          [
+            38,
+            295,
+            39,
+            408
+          ],
+          [
+            88,
+            498,
+            89,
+            610
+          ],
+          [
+            71,
+            10,
+            72,
+            120
+          ],
+          [
+            35,
+            11,
+            36,
+            116
+          ],
+          [
+            124,
+            506,
+            125,
+            608
+          ],
+          [
+            49,
+            210,
+            50,
+            307
+          ],
+          [
+            82,
+            8,
+            84,
+            126
+          ]
+        ]
+      }
+    },
+    {
+      "name": "plumb_offset",
+      "value": 0.98,
+      "unit": "cm/m",
+      "estimated": false,
+      "confidence": 0.95,
+      "evidence": [
+        "Found 11 vertical edges",
+        "Deviation: 0.56\u00b0"
+      ],
+      "details": null
+    }
+  ],
+  "message": "wall: vertical deviation 0.98 cm/m (0.6\u00b0 from plumb).",
+  "bbox": [
+    140,
+    10,
+    340,
+    630
+  ],
+  "input_param_deg": 0.6,
+  "expected_status": "PASS"
+}

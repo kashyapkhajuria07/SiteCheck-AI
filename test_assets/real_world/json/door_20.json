@@ -1,0 +1,41 @@
+{
+  "element_id": "E060",
+  "label": "door",
+  "location": "bbox [132, 90, 388, 553]",
+  "status": "FAIL",
+  "deviation": 40.35835351089588,
+  "expected": null,
+  "unit": "mm",
+  "reason": null,
+  "measurements": [
+    {
+      "name": "gap_asymmetry",
+      "value": 40.4,
+      "unit": "mm",
+      "estimated": false,
+      "confidence": 0.425,
+      "evidence": [
+        "Left jamb: 1 lines, disp=0.0px; Right jamb: 2 lines, disp=40.4px",
+        "Frame skew: 0.174, rectangularity: 0.65"
+      ],
+      "details": {
+        "left_disp_px": 0.0,
+        "right_disp_px": 40.4,
+        "n_left": 1,
+        "n_right": 2,
+        "frame_skew": 0.174,
+        "rectangularity": 0.65,
+        "frame_width_px": 232.0
+      }
+    }
+  ],
+  "message": "Door frame gap asymmetry \u2248 40.4 mm (rectangularity=0.65).",
+  "bbox": [
+    132,
+    90,
+    388,
+    553
+  ],
+  "input_param_deg": 5.0,
+  "expected_status": "FAIL"
+}

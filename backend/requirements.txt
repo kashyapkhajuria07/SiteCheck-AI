@@ -1,0 +1,16 @@
+fastapi>=0.110,<1
+uvicorn[standard]>=0.27,<1
+python-multipart>=0.0.9
+pydantic>=2.5,<3
+opencv-python>=4.8,<5
+numpy>=1.24,<3
+Pillow>=10,<12
+reportlab>=4.0,<5
+scipy>=1.11,<2
+
+# Phase 2+ (optional — heuristic fallback works without these)
+ultralytics>=8.0,<9
+pytesseract>=0.3.10
+pdf2image>=1.16
+PyMuPDF>=1.23
+easyocr>=1.7,<2

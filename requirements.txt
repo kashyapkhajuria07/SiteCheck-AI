@@ -1,0 +1,12 @@
+streamlit
+Pillow
+numpy
+streamlit
+opencv-python
+numpy
+pandas
+pillow
+matplotlib
+scikit-image
+reportlab
+ultralytics

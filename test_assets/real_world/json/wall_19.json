@@ -1,0 +1,133 @@
+{
+  "element_id": "E019",
+  "label": "wall",
+  "location": "bbox [140, 10, 340, 630]",
+  "status": "FAIL",
+  "deviation": 7.1428571428571335,
+  "expected": null,
+  "unit": "cm/m",
+  "reason": null,
+  "measurements": [
+    {
+      "name": "plumb_angle_deg",
+      "value": 4.09,
+      "unit": "deg",
+      "estimated": false,
+      "confidence": 0.95,
+      "evidence": [
+        "Found 14 vertical edges",
+        "Deviation: 4.09\u00b0"
+      ],
+      "details": {
+        "line_count": 14,
+        "lines": [
+          [
+            79,
+            10,
+            101,
+            329
+          ],
+          [
+            39,
+            15,
+            59,
+            302
+          ],
+          [
+            128,
+            11,
+            137,
+            140
+          ],
+          [
+            148,
+            412,
+            162,
+            610
+          ],
+          [
+            107,
+            398,
+            122,
+            610
+          ],
+          [
+            127,
+            125,
+            151,
+            464
+          ],
+          [
+            93,
+            47,
+            118,
+            399
+          ],
+          [
+            132,
+            60,
+            159,
+            440
+          ],
+          [
+            68,
+            412,
+            82,
+            609
+          ],
+          [
+            78,
+            387,
+            94,
+            611
+          ],
+          [
+            118,
+            10,
+            131,
+            192
+          ],
+          [
+            50,
+            10,
+            74,
+            345
+          ],
+          [
+            113,
+            318,
+            134,
+            610
+          ],
+          [
+            159,
+            428,
+            172,
+            608
+          ]
+        ]
+      }
+    },
+    {
+      "name": "plumb_offset",
+      "value": 7.14,
+      "unit": "cm/m",
+      "estimated": false,
+      "confidence": 0.95,
+      "evidence": [
+        "Found 14 vertical edges",
+        "Deviation: 4.09\u00b0"
+      ],
+      "details": null
+    }
+  ],
+  "message": "wall: vertical deviation 7.14 cm/m (4.1\u00b0 from plumb).",
+  "bbox": [
+    140,
+    10,
+    340,
+    630
+  ],
+  "input_param_deg": 4.0,
+  "expected_status": "FAIL"
+}

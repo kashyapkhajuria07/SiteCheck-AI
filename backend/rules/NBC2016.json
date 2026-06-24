@@ -1,0 +1,19 @@
+{
+  "name": "NBC 2016",
+  "description": "National Building Code of India — simplified dimensional tolerances for MVP",
+  "wall_plumb": {
+    "warning_cm_per_m": 1.2,
+    "fail_cm_per_m": 2.5
+  },
+  "beam_level": {
+    "warning_mm_per_m": 4.0,
+    "fail_mm_per_m": 8.0
+  },
+  "rebar_spacing": {
+    "default_spacing_mm": 125,
+    "tolerance_pct": 8
+  },
+  "door_alignment": {
+    "max_gap_asymmetry_mm": 12
+  }
+}

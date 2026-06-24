@@ -1,0 +1,50 @@
+{
+  "element_id": "E040",
+  "label": "beam",
+  "location": "bbox [20, 60, 620, 200]",
+  "status": "FAIL",
+  "deviation": 28.571428571428573,
+  "expected": null,
+  "unit": "mm/m",
+  "reason": null,
+  "measurements": [
+    {
+      "name": "level_angle_deg",
+      "value": 1.64,
+      "unit": "deg",
+      "estimated": false,
+      "confidence": 0.84,
+      "evidence": [
+        "Found 294 edges, deviation: 1.64\u00b0",
+        "Method: max"
+      ],
+      "details": {
+        "line_count": 294,
+        "hough_angle_deg": 1.637,
+        "gradient_angle_deg": 1.582,
+        "selected_method": "max"
+      }
+    },
+    {
+      "name": "level_offset",
+      "value": 28.57,
+      "unit": "mm/m",
+      "estimated": false,
+      "confidence": 0.84,
+      "evidence": [
+        "Found 294 edges, deviation: 1.64\u00b0",
+        "Method: max"
+      ],
+      "details": null
+    }
+  ],
+  "message": "beam: level deviation 28.57 mm/m (1.6\u00b0 from level).",
+  "bbox": [
+    20,
+    60,
+    620,
+    200
+  ],
+  "input_param_deg": 1.5,
+  "expected_status": "FAIL"
+}

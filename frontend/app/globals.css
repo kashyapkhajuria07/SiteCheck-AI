@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+
+@layer components {
+  /* Critical findings card */
+  .card-critical {
+    @apply border-l-4 border-red-500 bg-red-50;
+  }
+  .card-critical-header {
+    @apply text-sm font-bold text-red-800;
+  }
+  /* Coverage card */
+  .card-coverage {
+    @apply border-l-4 border-blue-500 bg-blue-50;
+  }
+  .card-coverage-header {
+    @apply text-sm font-bold text-blue-800;
+  }
+  /* Summary card */
+  .card-summary {
+    @apply border-l-4 border-purple-500 bg-purple-50;
+  }
+  .card-summary-header {
+    @apply text-sm font-bold text-purple-800;
+  }
+  /* Future-proof section boxes */
+  .section-box {
+    @apply rounded-lg border border-slate-200 bg-white p-4 text-center transition-shadow hover:shadow-md;
+  }
+  .section-box-title {
+    @apply text-xs font-semibold uppercase tracking-wide text-slate-500;
+  }
+  .section-box-value {
+    @apply mt-1 text-lg font-bold text-slate-800;
+  }
+}

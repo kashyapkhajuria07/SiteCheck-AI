@@ -1,0 +1,6467 @@
+{
+  "num_images": 105,
+  "scene_classification": {
+    "correct": 54,
+    "total": 105,
+    "accuracy": 0.5143,
+    "confusion": {
+      "construction_site->construction_site": 44,
+      "structural_frame->construction_site": 24,
+      "structural_frame->floor_plan": 27,
+      "structural_frame->structural_frame": 10
+    }
+  },
+  "detection_metrics": {
+    "true_positives": 4,
+    "false_positives": 247,
+    "false_negatives": 101,
+    "total_expected": 105,
+    "total_detected": 251,
+    "precision": 0.0159,
+    "recall": 0.0381,
+    "f1_score": 0.0225
+  },
+  "trust_metrics": {
+    "average_trust_score": 80.2,
+    "num_scored": 251
+  },
+  "detection_counts": {
+    "average_per_image": 2.4
+  },
+  "outcomes": {
+    "FAIL": 74,
+    "MISCLASSIFIED": 27,
+    "PARTIAL": 4
+  },
+  "results": [
+    {
+      "image": "structural/fail_beam_11.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/fail_beam_13.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/fail_beam_14.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.85
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/fail_beam_15.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 3,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 3,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 3,
+            "true_positives": 0,
+            "false_positives": 3,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/fail_beam_16.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/fail_beam_17.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/fail_beam_18.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/fail_beam_19.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/fail_beam_20.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/fail_door_18.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 7,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 7,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 7,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 7,
+            "true_positives": 0,
+            "false_positives": 7,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/fail_door_19.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.76
+      },
+      "detection_counts": {
+        "walls": 4,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 4,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 4,
+            "true_positives": 0,
+            "false_positives": 4,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/fail_door_20.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 6,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 6,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 6,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 6,
+            "true_positives": 0,
+            "false_positives": 6,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/fail_wall_15.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/fail_wall_16.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/fail_wall_17.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/fail_wall_18.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/fail_wall_19.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/fail_wall_20.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 0.9,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_beam_01.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_beam_02.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.85
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_beam_03.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_beam_04.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 3,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 3,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 3,
+            "true_positives": 0,
+            "false_positives": 3,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_beam_05.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.76
+      },
+      "detection_counts": {
+        "walls": 3,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 3,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 3,
+            "true_positives": 0,
+            "false_positives": 3,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_beam_06.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_beam_07.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_beam_08.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_beam_09.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_beam_10.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_beam_11.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_beam_12.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_beam_13.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_beam_14.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.85
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_beam_15.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 3,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 3,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 3,
+            "true_positives": 0,
+            "false_positives": 3,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_beam_16.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_beam_20.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_01.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 9,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 9,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 9,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 9,
+            "true_positives": 0,
+            "false_positives": 9,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_02.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "structural_frame",
+      "scene_confidence": 0.8,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 4,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 4,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 4,
+            "true_positives": 0,
+            "false_positives": 4,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_03.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 4,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 4,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 4,
+            "true_positives": 0,
+            "false_positives": 4,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_04.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "structural_frame",
+      "scene_confidence": 0.8,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 8,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 8,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 8,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 8,
+            "true_positives": 0,
+            "false_positives": 8,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_05.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 6,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 6,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 6,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 6,
+            "true_positives": 0,
+            "false_positives": 6,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_06.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "structural_frame",
+      "scene_confidence": 0.8,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 7,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 7,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 7,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 7,
+            "true_positives": 0,
+            "false_positives": 7,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_07.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 4,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 4,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 4,
+            "true_positives": 0,
+            "false_positives": 4,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_08.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "structural_frame",
+      "scene_confidence": 0.8,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 7,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 7,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 7,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 7,
+            "true_positives": 0,
+            "false_positives": 7,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_09.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.78
+      },
+      "detection_counts": {
+        "walls": 9,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 9,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 9,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 9,
+            "true_positives": 0,
+            "false_positives": 9,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_10.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 7,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 7,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 7,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 7,
+            "true_positives": 0,
+            "false_positives": 7,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_11.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "structural_frame",
+      "scene_confidence": 0.8,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.78
+      },
+      "detection_counts": {
+        "walls": 8,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 8,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 8,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 8,
+            "true_positives": 0,
+            "false_positives": 8,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_12.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 6,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 6,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 6,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 6,
+            "true_positives": 0,
+            "false_positives": 6,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_13.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 5,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 5,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 5,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 5,
+            "true_positives": 0,
+            "false_positives": 5,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_14.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_15.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.78
+      },
+      "detection_counts": {
+        "walls": 9,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 9,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 9,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 9,
+            "true_positives": 0,
+            "false_positives": 9,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_16.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 7,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 7,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 7,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 7,
+            "true_positives": 0,
+            "false_positives": 7,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_17.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 6,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 6,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 6,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 6,
+            "true_positives": 0,
+            "false_positives": 6,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_door_18.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 7,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 7,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 7,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 7,
+            "true_positives": 0,
+            "false_positives": 7,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_wall_01.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_wall_02.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 0.9,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_wall_03.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_wall_04.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_wall_05.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 0.9,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_wall_06.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_wall_07.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_wall_08.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 0.9,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_wall_09.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 0.9,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_wall_10.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_wall_11.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_wall_12.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_wall_13.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 0.9,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/pass_wall_16.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_01.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_02.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.85
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_03.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_04.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 3,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 3,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 3,
+            "true_positives": 0,
+            "false_positives": 3,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_05.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.76
+      },
+      "detection_counts": {
+        "walls": 3,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 3,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 3,
+            "true_positives": 0,
+            "false_positives": 3,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_06.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_07.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_09.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_10.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_11.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_12.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_13.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_14.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.85
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_15.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 3,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 3,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 3,
+            "true_positives": 0,
+            "false_positives": 3,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_16.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_17.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_18.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_beam_19.jpg",
+      "gt_scene": "construction_site",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_door_12.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 6,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 6,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 6,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 6,
+            "true_positives": 0,
+            "false_positives": 6,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_door_13.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 5,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 5,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 5,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 5,
+            "true_positives": 0,
+            "false_positives": 5,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_door_14.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 1,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_door_15.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.78
+      },
+      "detection_counts": {
+        "walls": 9,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 9,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 9,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 9,
+            "true_positives": 0,
+            "false_positives": 9,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_door_16.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 7,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 7,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 7,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 7,
+            "true_positives": 0,
+            "false_positives": 7,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_door_17.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 6,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 6,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 6,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 6,
+            "true_positives": 0,
+            "false_positives": 6,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_door_19.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.76
+      },
+      "detection_counts": {
+        "walls": 4,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 4,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 4,
+            "true_positives": 0,
+            "false_positives": 4,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_door_20.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "construction_site",
+      "scene_confidence": 0.7,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8
+      },
+      "detection_counts": {
+        "walls": 6,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 6,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 6,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 6,
+            "true_positives": 0,
+            "false_positives": 6,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_wall_09.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 0.9,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_wall_10.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_wall_11.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_wall_12.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_wall_13.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 0.9,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_wall_14.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/warning_wall_15.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "floor_plan",
+      "scene_confidence": 1.0,
+      "scene_correct": false,
+      "should_inspect": true,
+      "inspected": false,
+      "outcome": "MISCLASSIFIED",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/validation_case1_wall_plumb_pass.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "structural_frame",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "PARTIAL",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8,
+        "beam": 0.84,
+        "door": 0.75
+      },
+      "detection_counts": {
+        "walls": 5,
+        "columns": 0,
+        "doors": 4,
+        "beams": 1
+      },
+      "match": {
+        "true_positives": 1,
+        "false_positives": 9,
+        "false_negatives": 0,
+        "total_expected": 1,
+        "total_detected": 10,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 4,
+            "true_positives": 0,
+            "false_positives": 4,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 5,
+            "true_positives": 1,
+            "false_positives": 4,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/validation_case2_wall_plumb_uncalibrated.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "structural_frame",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "FAIL",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {},
+      "detection_counts": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "match": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "total_expected": 1,
+        "total_detected": 0,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/validation_case3_wall_plumb_fail.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "structural_frame",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "PARTIAL",
+      "gt_elements": {
+        "walls": 1,
+        "columns": 0,
+        "doors": 0,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8,
+        "beam": 0.85,
+        "door": 0.75
+      },
+      "detection_counts": {
+        "walls": 6,
+        "columns": 0,
+        "doors": 5,
+        "beams": 1
+      },
+      "match": {
+        "true_positives": 1,
+        "false_positives": 11,
+        "false_negatives": 0,
+        "total_expected": 1,
+        "total_detected": 12,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 5,
+            "true_positives": 0,
+            "false_positives": 5,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 1,
+            "detected": 6,
+            "true_positives": 1,
+            "false_positives": 5,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/validation_case4_beam_level_warning.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "structural_frame",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "PARTIAL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "detections": {
+        "wall": 0.8,
+        "beam": 0.85
+      },
+      "detection_counts": {
+        "walls": 5,
+        "columns": 0,
+        "doors": 0,
+        "beams": 1
+      },
+      "match": {
+        "true_positives": 1,
+        "false_positives": 5,
+        "false_negatives": 0,
+        "total_expected": 1,
+        "total_detected": 6,
+        "per_label": {
+          "beam": {
+            "ground_truth": 1,
+            "detected": 1,
+            "true_positives": 1,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 5,
+            "true_positives": 0,
+            "false_positives": 5,
+            "false_negatives": 0
+          }
+        }
+      }
+    },
+    {
+      "image": "structural/validation_case5_door_alignment_fail.jpg",
+      "gt_scene": "structural_frame",
+      "pred_scene": "structural_frame",
+      "scene_confidence": 0.7,
+      "scene_correct": true,
+      "should_inspect": true,
+      "inspected": true,
+      "outcome": "PARTIAL",
+      "gt_elements": {
+        "walls": 0,
+        "columns": 0,
+        "doors": 1,
+        "beams": 0
+      },
+      "detections": {
+        "wall": 0.8,
+        "beam": 0.85,
+        "door": 0.75
+      },
+      "detection_counts": {
+        "walls": 2,
+        "columns": 0,
+        "doors": 3,
+        "beams": 1
+      },
+      "match": {
+        "true_positives": 1,
+        "false_positives": 5,
+        "false_negatives": 0,
+        "total_expected": 1,
+        "total_detected": 6,
+        "per_label": {
+          "beam": {
+            "ground_truth": 0,
+            "detected": 1,
+            "true_positives": 0,
+            "false_positives": 1,
+            "false_negatives": 0
+          },
+          "column": {
+            "ground_truth": 0,
+            "detected": 0,
+            "true_positives": 0,
+            "false_positives": 0,
+            "false_negatives": 0
+          },
+          "door": {
+            "ground_truth": 1,
+            "detected": 3,
+            "true_positives": 1,
+            "false_positives": 2,
+            "false_negatives": 0
+          },
+          "wall": {
+            "ground_truth": 0,
+            "detected": 2,
+            "true_positives": 0,
+            "false_positives": 2,
+            "false_negatives": 0
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "element_id": "E014",
+  "label": "wall",
+  "location": "bbox [140, 10, 340, 630]",
+  "status": "WARNING",
+  "deviation": 2.919708029197069,
+  "expected": null,
+  "unit": "cm/m",
+  "reason": null,
+  "measurements": [
+    {
+      "name": "plumb_angle_deg",
+      "value": 1.67,
+      "unit": "deg",
+      "estimated": false,
+      "confidence": 0.95,
+      "evidence": [
+        "Found 13 vertical edges",
+        "Deviation: 1.67\u00b0"
+      ],
+      "details": {
+        "line_count": 13,
+        "lines": [
+          [
+            131,
+            400,
+            134,
+            514
+          ],
+          [
+            114,
+            167,
+            117,
+            280
+          ],
+          [
+            124,
+            174,
+            128,
+            316
+          ],
+          [
+            45,
+            241,
+            49,
+            383
+          ],
+          [
+            85,
+            240,
+            89,
+            382
+          ],
+          [
+            30,
+            139,
+            34,
+            281
+          ],
+          [
+            89,
+            383,
+            92,
+            488
+          ],
+          [
+            78,
+            10,
+            82,
+            149
+          ],
+          [
+            123,
+            472,
+            127,
+            610
+          ],
+          [
+            68,
+            10,
+            72,
+            147
+          ],
+          [
+            52,
+            474,
+            56,
+            610
+          ],
+          [
+            117,
+            281,
+            120,
+            382
+          ],
+          [
+            42,
+            140,
+            45,
+            240
+          ]
+        ]
+      }
+    },
+    {
+      "name": "plumb_offset",
+      "value": 2.92,
+      "unit": "cm/m",
+      "estimated": false,
+      "confidence": 0.95,
+      "evidence": [
+        "Found 13 vertical edges",
+        "Deviation: 1.67\u00b0"
+      ],
+      "details": null
+    }
+  ],
+  "message": "wall: vertical deviation 2.92 cm/m (1.7\u00b0 from plumb).",
+  "bbox": [
+    140,
+    10,
+    340,
+    630
+  ],
+  "input_param_deg": 1.7,
+  "expected_status": "WARNING"
+}

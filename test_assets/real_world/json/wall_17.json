@@ -1,0 +1,91 @@
+{
+  "element_id": "E017",
+  "label": "wall",
+  "location": "bbox [140, 10, 340, 630]",
+  "status": "FAIL",
+  "deviation": 5.333333333333337,
+  "expected": null,
+  "unit": "cm/m",
+  "reason": null,
+  "measurements": [
+    {
+      "name": "plumb_angle_deg",
+      "value": 3.05,
+      "unit": "deg",
+      "estimated": false,
+      "confidence": 0.81,
+      "evidence": [
+        "Found 7 vertical edges",
+        "Deviation: 3.05\u00b0"
+      ],
+      "details": {
+        "line_count": 7,
+        "lines": [
+          [
+            100,
+            10,
+            115,
+            301
+          ],
+          [
+            131,
+            11,
+            162,
+            610
+          ],
+          [
+            73,
+            263,
+            91,
+            609
+          ],
+          [
+            79,
+            190,
+            101,
+            610
+          ],
+          [
+            92,
+            38,
+            122,
+            610
+          ],
+          [
+            121,
+            10,
+            153,
+            610
+          ],
+          [
+            120,
+            388,
+            132,
+            609
+          ]
+        ]
+      }
+    },
+    {
+      "name": "plumb_offset",
+      "value": 5.33,
+      "unit": "cm/m",
+      "estimated": false,
+      "confidence": 0.81,
+      "evidence": [
+        "Found 7 vertical edges",
+        "Deviation: 3.05\u00b0"
+      ],
+      "details": null
+    }
+  ],
+  "message": "wall: vertical deviation 5.33 cm/m (3.1\u00b0 from plumb).",
+  "bbox": [
+    140,
+    10,
+    340,
+    630
+  ],
+  "input_param_deg": 3.0,
+  "expected_status": "FAIL"
+}

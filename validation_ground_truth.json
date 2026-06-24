@@ -1,0 +1,1157 @@
+[
+  {
+    "image": "structural/fail_beam_11.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/fail_beam_13.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/fail_beam_14.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/fail_beam_15.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/fail_beam_16.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/fail_beam_17.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/fail_beam_18.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/fail_beam_19.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/fail_beam_20.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/fail_door_18.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/fail_door_19.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/fail_door_20.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/fail_wall_15.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/fail_wall_16.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/fail_wall_17.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/fail_wall_18.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/fail_wall_19.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/fail_wall_20.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_beam_01.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/pass_beam_02.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/pass_beam_03.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/pass_beam_04.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/pass_beam_05.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/pass_beam_06.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/pass_beam_07.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/pass_beam_08.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/pass_beam_09.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/pass_beam_10.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/pass_beam_11.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/pass_beam_12.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/pass_beam_13.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/pass_beam_14.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/pass_beam_15.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/pass_beam_16.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/pass_beam_20.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/pass_door_01.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_door_02.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_door_03.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_door_04.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_door_05.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_door_06.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_door_07.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_door_08.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_door_09.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_door_10.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_door_11.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_door_12.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_door_13.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_door_14.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_door_15.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_door_16.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_door_17.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_door_18.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_wall_01.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_wall_02.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_wall_03.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_wall_04.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_wall_05.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_wall_06.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_wall_07.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_wall_08.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_wall_09.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_wall_10.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_wall_11.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_wall_12.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_wall_13.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/pass_wall_16.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/warning_beam_01.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_beam_02.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_beam_03.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_beam_04.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_beam_05.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_beam_06.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_beam_07.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_beam_09.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_beam_10.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_beam_11.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_beam_12.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_beam_13.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_beam_14.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_beam_15.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_beam_16.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_beam_17.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_beam_18.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_beam_19.jpg",
+    "scene_type": "construction_site",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/warning_door_12.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/warning_door_13.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/warning_door_14.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/warning_door_15.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/warning_door_16.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/warning_door_17.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/warning_door_19.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/warning_door_20.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/warning_wall_09.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/warning_wall_10.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/warning_wall_11.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/warning_wall_12.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/warning_wall_13.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/warning_wall_14.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/warning_wall_15.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/validation_case1_wall_plumb_pass.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/validation_case2_wall_plumb_uncalibrated.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/validation_case3_wall_plumb_fail.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 1,
+      "columns": 0,
+      "doors": 0,
+      "beams": 0
+    }
+  },
+  {
+    "image": "structural/validation_case4_beam_level_warning.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 0,
+      "beams": 1
+    }
+  },
+  {
+    "image": "structural/validation_case5_door_alignment_fail.jpg",
+    "scene_type": "structural_frame",
+    "should_inspect": true,
+    "expected_elements": {
+      "walls": 0,
+      "columns": 0,
+      "doors": 1,
+      "beams": 0
+    }
+  }
+]

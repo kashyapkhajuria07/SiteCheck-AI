@@ -1,0 +1,49 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Large / generated artifacts
+models/
+checkpoints/
+outputs/
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/outputs/*
+!backend/outputs/.gitkeep
+backend/yolov8n.pt
+backend/Ultralytics/
+backend/models/weights/*.pt
+!backend/models/weights/.gitkeep
+
+# YOLO training artifacts
+runs/
+data/yolo/images/
+data/yolo/labels/
+data/yolo/train/
+data/yolo/valid/
+data/yolo/test/
+!data/yolo/data.yaml
+temp/
+logs/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Saved inspection runs (keep folder, ignore contents)
+reports/*
+!reports/.gitkeep
+
+# Local data
+data/processed/*
+data/raw/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Ignore weights
+*.pt

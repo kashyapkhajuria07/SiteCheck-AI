@@ -1,0 +1,37 @@
+{
+  "doors": [
+    {
+      "id": "D1",
+      "width_mm": 800
+    },
+    {
+      "id": "D2",
+      "width_mm": 900
+    },
+    {
+      "id": "D3",
+      "width_mm": 1000
+    }
+  ],
+  "columns": [
+    {
+      "id": "C1",
+      "width_mm": 300
+    },
+    {
+      "id": "C2",
+      "width_mm": 280
+    }
+  ],
+  "beams": [],
+  "walls": [
+    {
+      "id": "W1",
+      "thickness_mm": 200
+    },
+    {
+      "id": "W2",
+      "thickness_mm": 200
+    }
+  ]
+}

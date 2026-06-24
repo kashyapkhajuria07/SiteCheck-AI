@@ -1,0 +1,69 @@
+{
+  "doors": [
+    {
+      "id": "D1",
+      "width_mm": 1800
+    },
+    {
+      "id": "D2",
+      "width_mm": 2000
+    }
+  ],
+  "columns": [
+    {
+      "id": "C1",
+      "width_mm": 300
+    },
+    {
+      "id": "C2",
+      "width_mm": 300
+    },
+    {
+      "id": "C3",
+      "width_mm": 300
+    },
+    {
+      "id": "C4",
+      "width_mm": 300
+    },
+    {
+      "id": "C5",
+      "width_mm": 300
+    },
+    {
+      "id": "C6",
+      "width_mm": 300
+    },
+    {
+      "id": "C7",
+      "width_mm": 300
+    },
+    {
+      "id": "C8",
+      "width_mm": 300
+    },
+    {
+      "id": "C9",
+      "width_mm": 300
+    },
+    {
+      "id": "C10",
+      "width_mm": 300
+    },
+    {
+      "id": "C11",
+      "width_mm": 300
+    },
+    {
+      "id": "C12",
+      "width_mm": 300
+    }
+  ],
+  "beams": [],
+  "walls": [
+    {
+      "id": "W1",
+      "thickness_mm": 300
+    }
+  ]
+}

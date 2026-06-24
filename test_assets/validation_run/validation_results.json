@@ -1,0 +1,931 @@
+{
+  "session_id": "3a05d096591f",
+  "status": "completed",
+  "unit_system": "metric",
+  "ruleset": "IS456",
+  "compliance_score": 75.0,
+  "photos": [
+    {
+      "photo_id": "P000",
+      "file_name": "case1_wall_plumb_pass.jpg",
+      "annotated_image_url": "/api/files/3a05d096591f/annotated_00.png",
+      "elements": [
+        {
+          "element_id": "E001",
+          "label": "wall",
+          "location": "bbox [100, 30, 200, 570]",
+          "status": "PASS",
+          "deviation": 0.06731784303637003,
+          "expected": null,
+          "unit": "cm/m",
+          "reason": null,
+          "measurements": [
+            {
+              "name": "plumb_angle_deg",
+              "value": 0.04,
+              "unit": "deg",
+              "estimated": false,
+              "confidence": 0.95,
+              "evidence": [
+                "Found 28 vertical edges",
+                "Angle std dev: 0.04°"
+              ],
+              "details": {
+                "line_count": 28,
+                "lines": [
+                  [
+                    45,
+                    329,
+                    45,
+                    86
+                  ],
+                  [
+                    29,
+                    456,
+                    29,
+                    332
+                  ],
+                  [
+                    46,
+                    454,
+                    46,
+                    330
+                  ],
+                  [
+                    67,
+                    108,
+                    67,
+                    164
+                  ],
+                  [
+                    26,
+                    26,
+                    27,
+                    139
+                  ],
+                  [
+                    69,
+                    456,
+                    69,
+                    332
+                  ],
+                  [
+                    70,
+                    84,
+                    70,
+                    22
+                  ],
+                  [
+                    71,
+                    208,
+                    71,
+                    85
+                  ],
+                  [
+                    32,
+                    333,
+                    32,
+                    209
+                  ],
+                  [
+                    54,
+                    276,
+                    55,
+                    376
+                  ],
+                  [
+                    68,
+                    331,
+                    68,
+                    207
+                  ],
+                  [
+                    30,
+                    84,
+                    30,
+                    22
+                  ],
+                  [
+                    31,
+                    208,
+                    31,
+                    85
+                  ],
+                  [
+                    53,
+                    204,
+                    53,
+                    65
+                  ],
+                  [
+                    33,
+                    459,
+                    33,
+                    334
+                  ],
+                  [
+                    28,
+                    331,
+                    28,
+                    207
+                  ],
+                  [
+                    73,
+                    459,
+                    73,
+                    334
+                  ],
+                  [
+                    72,
+                    333,
+                    72,
+                    209
+                  ],
+                  [
+                    56,
+                    521,
+                    56,
+                    455
+                  ],
+                  [
+                    47,
+                    516,
+                    47,
+                    455
+                  ],
+                  [
+                    34,
+                    518,
+                    34,
+                    460
+                  ],
+                  [
+                    55,
+                    454,
+                    55,
+                    391
+                  ],
+                  [
+                    66,
+                    80,
+                    66,
+                    20
+                  ],
+                  [
+                    74,
+                    518,
+                    74,
+                    460
+                  ],
+                  [
+                    43,
+                    79,
+                    43,
+                    23
+                  ],
+                  [
+                    27,
+                    206,
+                    27,
+                    166
+                  ],
+                  [
+                    52,
+                    79,
+                    52,
+                    19
+                  ],
+                  [
+                    54,
+                    260,
+                    54,
+                    205
+                  ]
+                ]
+              }
+            },
+            {
+              "name": "plumb_offset",
+              "value": 0.07,
+              "unit": "cm/m",
+              "estimated": false,
+              "confidence": 0.95,
+              "evidence": [
+                "Found 28 vertical edges",
+                "Angle std dev: 0.04°"
+              ],
+              "details": null
+            }
+          ],
+          "message": "wall: vertical deviation 0.07 cm/m (0.0° from plumb).",
+          "bbox": [
+            100,
+            30,
+            200,
+            570
+          ]
+        },
+        {
+          "element_id": "E003",
+          "label": "door",
+          "location": "bbox [340, 190, 510, 590]",
+          "status": "PASS",
+          "deviation": 2.6470588235294117,
+          "expected": null,
+          "unit": "mm",
+          "reason": null,
+          "measurements": [
+            {
+              "name": "gap_asymmetry",
+              "value": 2.6,
+              "unit": "mm",
+              "estimated": false,
+              "confidence": 0.85,
+              "evidence": [
+                "Analyzed vertical profiles on left and right frames. Left: 9.5px, Right: 10.0px"
+              ],
+              "details": null
+            }
+          ],
+          "message": "Door frame gap asymmetry ≈ 2.6 mm.",
+          "bbox": [
+            340,
+            190,
+            510,
+            590
+          ]
+        }
+      ],
+      "quality_flags": [
+        "Photo may be too dark — consider re-uploading with better lighting.",
+        "Photo appears blurry — measurements may be unreliable."
+      ]
+    },
+    {
+      "photo_id": "P001",
+      "file_name": "case2_wall_plumb_uncalibrated.jpg",
+      "annotated_image_url": "/api/files/3a05d096591f/annotated_01.png",
+      "elements": [
+        {
+          "element_id": "E003",
+          "label": "wall",
+          "location": "bbox [250, 30, 350, 570]",
+          "status": "INCONCLUSIVE",
+          "deviation": null,
+          "expected": null,
+          "unit": "cm",
+          "reason": "scale_not_calibrated",
+          "measurements": [
+            {
+              "name": "plumb_angle_deg",
+              "value": 1.71,
+              "unit": "deg",
+              "estimated": false,
+              "confidence": 0.95,
+              "evidence": [
+                "Found 32 vertical edges",
+                "Angle std dev: 1.71°"
+              ],
+              "details": {
+                "line_count": 32,
+                "lines": [
+                  [
+                    70,
+                    210,
+                    74,
+                    333
+                  ],
+                  [
+                    65,
+                    182,
+                    70,
+                    331
+                  ],
+                  [
+                    22,
+                    107,
+                    26,
+                    230
+                  ],
+                  [
+                    58,
+                    354,
+                    62,
+                    479
+                  ],
+                  [
+                    49,
+                    354,
+                    51,
+                    419
+                  ],
+                  [
+                    36,
+                    360,
+                    41,
+                    508
+                  ],
+                  [
+                    24,
+                    59,
+                    29,
+                    209
+                  ],
+                  [
+                    35,
+                    22,
+                    38,
+                    88
+                  ],
+                  [
+                    75,
+                    345,
+                    78,
+                    420
+                  ],
+                  [
+                    28,
+                    257,
+                    33,
+                    405
+                  ],
+                  [
+                    52,
+                    200,
+                    55,
+                    304
+                  ],
+                  [
+                    52,
+                    411,
+                    53,
+                    475
+                  ],
+                  [
+                    33,
+                    284,
+                    34,
+                    333
+                  ],
+                  [
+                    43,
+                    204,
+                    47,
+                    328
+                  ],
+                  [
+                    50,
+                    151,
+                    52,
+                    199
+                  ],
+                  [
+                    35,
+                    359,
+                    35,
+                    334
+                  ],
+                  [
+                    72,
+                    367,
+                    75,
+                    442
+                  ],
+                  [
+                    63,
+                    504,
+                    63,
+                    465
+                  ],
+                  [
+                    79,
+                    448,
+                    82,
+                    520
+                  ],
+                  [
+                    34,
+                    406,
+                    34,
+                    431
+                  ],
+                  [
+                    64,
+                    69,
+                    67,
+                    144
+                  ],
+                  [
+                    59,
+                    46,
+                    62,
+                    121
+                  ],
+                  [
+                    44,
+                    19,
+                    46,
+                    50
+                  ],
+                  [
+                    76,
+                    471,
+                    78,
+                    518
+                  ],
+                  [
+                    54,
+                    461,
+                    54,
+                    492
+                  ],
+                  [
+                    36,
+                    457,
+                    38,
+                    520
+                  ],
+                  [
+                    67,
+                    145,
+                    68,
+                    171
+                  ],
+                  [
+                    40,
+                    123,
+                    40,
+                    154
+                  ],
+                  [
+                    49,
+                    121,
+                    50,
+                    149
+                  ],
+                  [
+                    57,
+                    312,
+                    57,
+                    344
+                  ],
+                  [
+                    18,
+                    22,
+                    19,
+                    56
+                  ],
+                  [
+                    55,
+                    493,
+                    57,
+                    523
+                  ]
+                ]
+              }
+            },
+            {
+              "name": "plumb_offset",
+              "value": 2.99,
+              "unit": "cm/m",
+              "estimated": true,
+              "confidence": 0.95,
+              "evidence": [
+                "Found 32 vertical edges",
+                "Angle std dev: 1.71°"
+              ],
+              "details": null
+            }
+          ],
+          "message": "wall: vertical deviation 2.99 cm/m (1.7° from plumb).",
+          "bbox": [
+            250,
+            30,
+            350,
+            570
+          ]
+        }
+      ],
+      "quality_flags": [
+        "Photo may be too dark — consider re-uploading with better lighting.",
+        "Photo appears blurry — measurements may be unreliable."
+      ]
+    },
+    {
+      "photo_id": "P002",
+      "file_name": "case3_wall_plumb_fail.jpg",
+      "annotated_image_url": "/api/files/3a05d096591f/annotated_02.png",
+      "elements": [
+        {
+          "element_id": "E004",
+          "label": "wall",
+          "location": "bbox [100, 30, 200, 570]",
+          "status": "FAIL",
+          "deviation": 6.260564292072789,
+          "expected": null,
+          "unit": "cm/m",
+          "reason": null,
+          "measurements": [
+            {
+              "name": "plumb_angle_deg",
+              "value": 3.58,
+              "unit": "deg",
+              "estimated": false,
+              "confidence": 0.95,
+              "evidence": [
+                "Found 24 vertical edges",
+                "Angle std dev: 3.58°"
+              ],
+              "details": {
+                "line_count": 24,
+                "lines": [
+                  [
+                    54,
+                    267,
+                    66,
+                    452
+                  ],
+                  [
+                    32,
+                    66,
+                    36,
+                    124
+                  ],
+                  [
+                    45,
+                    127,
+                    49,
+                    186
+                  ],
+                  [
+                    12,
+                    22,
+                    26,
+                    235
+                  ],
+                  [
+                    29,
+                    226,
+                    42,
+                    425
+                  ],
+                  [
+                    45,
+                    262,
+                    54,
+                    404
+                  ],
+                  [
+                    59,
+                    62,
+                    64,
+                    154
+                  ],
+                  [
+                    24,
+                    208,
+                    37,
+                    407
+                  ],
+                  [
+                    75,
+                    320,
+                    87,
+                    505
+                  ],
+                  [
+                    66,
+                    239,
+                    78,
+                    424
+                  ],
+                  [
+                    18,
+                    55,
+                    31,
+                    253
+                  ],
+                  [
+                    55,
+                    68,
+                    67,
+                    252
+                  ],
+                  [
+                    65,
+                    155,
+                    71,
+                    264
+                  ],
+                  [
+                    54,
+                    406,
+                    62,
+                    521
+                  ],
+                  [
+                    34,
+                    365,
+                    45,
+                    521
+                  ],
+                  [
+                    36,
+                    120,
+                    42,
+                    227
+                  ],
+                  [
+                    38,
+                    19,
+                    46,
+                    140
+                  ],
+                  [
+                    46,
+                    483,
+                    47,
+                    521
+                  ],
+                  [
+                    52,
+                    22,
+                    58,
+                    110
+                  ],
+                  [
+                    77,
+                    412,
+                    84,
+                    518
+                  ],
+                  [
+                    49,
+                    183,
+                    54,
+                    266
+                  ],
+                  [
+                    39,
+                    383,
+                    45,
+                    481
+                  ],
+                  [
+                    64,
+                    431,
+                    70,
+                    515
+                  ],
+                  [
+                    72,
+                    265,
+                    75,
+                    319
+                  ]
+                ]
+              }
+            },
+            {
+              "name": "plumb_offset",
+              "value": 6.26,
+              "unit": "cm/m",
+              "estimated": false,
+              "confidence": 0.95,
+              "evidence": [
+                "Found 24 vertical edges",
+                "Angle std dev: 3.58°"
+              ],
+              "details": null
+            }
+          ],
+          "message": "wall: vertical deviation 6.26 cm/m (3.6° from plumb).",
+          "bbox": [
+            100,
+            30,
+            200,
+            570
+          ]
+        },
+        {
+          "element_id": "E006",
+          "label": "door",
+          "location": "bbox [340, 190, 510, 590]",
+          "status": "PASS",
+          "deviation": 2.6470588235294117,
+          "expected": null,
+          "unit": "mm",
+          "reason": null,
+          "measurements": [
+            {
+              "name": "gap_asymmetry",
+              "value": 2.6,
+              "unit": "mm",
+              "estimated": false,
+              "confidence": 0.85,
+              "evidence": [
+                "Analyzed vertical profiles on left and right frames. Left: 9.5px, Right: 10.0px"
+              ],
+              "details": null
+            }
+          ],
+          "message": "Door frame gap asymmetry ≈ 2.6 mm.",
+          "bbox": [
+            340,
+            190,
+            510,
+            590
+          ]
+        }
+      ],
+      "quality_flags": [
+        "Photo may be too dark — consider re-uploading with better lighting.",
+        "Photo appears blurry — measurements may be unreliable."
+      ]
+    },
+    {
+      "photo_id": "P003",
+      "file_name": "case4_beam_level_warning.jpg",
+      "annotated_image_url": "/api/files/3a05d096591f/annotated_03.png",
+      "elements": [
+        {
+          "element_id": "E006",
+          "label": "beam",
+          "location": "bbox [40, 80, 560, 120]",
+          "status": "PASS",
+          "deviation": 1.0193397469504082,
+          "expected": null,
+          "unit": "mm/m",
+          "reason": null,
+          "measurements": [
+            {
+              "name": "level_angle_deg",
+              "value": 0.06,
+              "unit": "deg",
+              "estimated": false,
+              "confidence": 0.85,
+              "evidence": [
+                "Found 9 horizontal edges"
+              ],
+              "details": {
+                "line_count": 9,
+                "lines": [
+                  [
+                    414,
+                    27,
+                    512,
+                    27
+                  ],
+                  [
+                    133,
+                    13,
+                    216,
+                    13
+                  ],
+                  [
+                    383,
+                    14,
+                    506,
+                    14
+                  ],
+                  [
+                    14,
+                    12,
+                    132,
+                    12
+                  ],
+                  [
+                    9,
+                    25,
+                    132,
+                    25
+                  ],
+                  [
+                    265,
+                    14,
+                    374,
+                    13
+                  ],
+                  [
+                    208,
+                    27,
+                    404,
+                    27
+                  ],
+                  [
+                    147,
+                    27,
+                    192,
+                    27
+                  ],
+                  [
+                    213,
+                    14,
+                    255,
+                    14
+                  ]
+                ]
+              }
+            },
+            {
+              "name": "level_offset",
+              "value": 1.02,
+              "unit": "mm/m",
+              "estimated": false,
+              "confidence": 0.85,
+              "evidence": [
+                "Found 9 horizontal edges"
+              ],
+              "details": null
+            }
+          ],
+          "message": "beam: level deviation 1.02 mm/m (0.1° from level).",
+          "bbox": [
+            40,
+            80,
+            560,
+            120
+          ]
+        },
+        {
+          "element_id": "E008",
+          "label": "door",
+          "location": "bbox [290, 210, 460, 590]",
+          "status": "PASS",
+          "deviation": 9.70588235294118,
+          "expected": null,
+          "unit": "mm",
+          "reason": null,
+          "measurements": [
+            {
+              "name": "gap_asymmetry",
+              "value": 9.7,
+              "unit": "mm",
+              "estimated": false,
+              "confidence": 0.85,
+              "evidence": [
+                "Analyzed vertical profiles on left and right frames. Left: 8.7px, Right: 10.5px"
+              ],
+              "details": null
+            }
+          ],
+          "message": "Door frame gap asymmetry ≈ 9.7 mm.",
+          "bbox": [
+            290,
+            210,
+            460,
+            590
+          ]
+        }
+      ],
+      "quality_flags": [
+        "Photo may be too dark — consider re-uploading with better lighting.",
+        "Photo appears blurry — measurements may be unreliable."
+      ]
+    },
+    {
+      "photo_id": "P004",
+      "file_name": "case5_door_alignment_fail.jpg",
+      "annotated_image_url": "/api/files/3a05d096591f/annotated_04.png",
+      "elements": [
+        {
+          "element_id": "E008",
+          "label": "door",
+          "location": "bbox [130, 130, 370, 570]",
+          "status": "WARNING",
+          "deviation": 29.765625,
+          "expected": null,
+          "unit": "mm",
+          "reason": null,
+          "measurements": [
+            {
+              "name": "gap_asymmetry",
+              "value": 29.8,
+              "unit": "mm",
+              "estimated": false,
+              "confidence": 0.85,
+              "evidence": [
+                "Analyzed vertical profiles on left and right frames. Left: 19.5px, Right: 11.6px"
+              ],
+              "details": null
+            }
+          ],
+          "message": "Door frame gap asymmetry ≈ 29.8 mm.",
+          "bbox": [
+            130,
+            130,
+            370,
+            570
+          ]
+        }
+      ],
+      "quality_flags": [
+        "Photo may be too dark — consider re-uploading with better lighting.",
+        "Photo appears blurry — measurements may be unreliable."
+      ]
+    }
+  ],
+  "report_path": "/Users/kashyapkhajuria/Documents/CRIE PROJECT imp/SiteCheck-AI/backend/outputs/3a05d096591f/inspection_report_3a05d096591f.pdf",
+  "plan_provided": true,
+  "detection_mode": "custom_yolo"
+}

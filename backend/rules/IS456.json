@@ -1,0 +1,19 @@
+{
+  "name": "IS:456:2000",
+  "description": "Indian Standard for Plain and Reinforced Concrete — simplified tolerances for MVP",
+  "wall_plumb": {
+    "warning_cm_per_m": 1.5,
+    "fail_cm_per_m": 3.0
+  },
+  "beam_level": {
+    "warning_mm_per_m": 5.0,
+    "fail_mm_per_m": 10.0
+  },
+  "rebar_spacing": {
+    "default_spacing_mm": 150,
+    "tolerance_pct": 10
+  },
+  "door_alignment": {
+    "max_gap_asymmetry_mm": 15
+  }
+}

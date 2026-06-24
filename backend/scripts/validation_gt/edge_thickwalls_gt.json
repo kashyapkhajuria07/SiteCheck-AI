@@ -1,0 +1,16 @@
+{
+  "doors": [
+    {
+      "id": "D1",
+      "width_mm": 1000
+    }
+  ],
+  "columns": [],
+  "beams": [],
+  "walls": [
+    {
+      "id": "W1",
+      "thickness_mm": 400
+    }
+  ]
+}

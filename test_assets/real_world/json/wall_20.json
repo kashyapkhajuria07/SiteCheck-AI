@@ -1,0 +1,121 @@
+{
+  "element_id": "E020",
+  "label": "wall",
+  "location": "bbox [140, 10, 340, 630]",
+  "status": "FAIL",
+  "deviation": 8.933717579250715,
+  "expected": null,
+  "unit": "cm/m",
+  "reason": null,
+  "measurements": [
+    {
+      "name": "plumb_angle_deg",
+      "value": 5.11,
+      "unit": "deg",
+      "estimated": false,
+      "confidence": 0.95,
+      "evidence": [
+        "Found 12 vertical edges",
+        "Deviation: 5.11\u00b0"
+      ],
+      "details": {
+        "line_count": 12,
+        "lines": [
+          [
+            87,
+            404,
+            105,
+            611
+          ],
+          [
+            76,
+            152,
+            116,
+            611
+          ],
+          [
+            52,
+            7,
+            104,
+            603
+          ],
+          [
+            88,
+            8,
+            136,
+            558
+          ],
+          [
+            27,
+            10,
+            50,
+            272
+          ],
+          [
+            99,
+            11,
+            124,
+            294
+          ],
+          [
+            51,
+            11,
+            69,
+            214
+          ],
+          [
+            50,
+            262,
+            81,
+            610
+          ],
+          [
+            25,
+            115,
+            69,
+            608
+          ],
+          [
+            122,
+            262,
+            153,
+            609
+          ],
+          [
+            15,
+            11,
+            44,
+            335
+          ],
+          [
+            62,
+            7,
+            82,
+            227
+          ]
+        ]
+      }
+    },
+    {
+      "name": "plumb_offset",
+      "value": 8.93,
+      "unit": "cm/m",
+      "estimated": false,
+      "confidence": 0.95,
+      "evidence": [
+        "Found 12 vertical edges",
+        "Deviation: 5.11\u00b0"
+      ],
+      "details": null
+    }
+  ],
+  "message": "wall: vertical deviation 8.93 cm/m (5.1\u00b0 from plumb).",
+  "bbox": [
+    140,
+    10,
+    340,
+    630
+  ],
+  "input_param_deg": 5.0,
+  "expected_status": "FAIL"
+}
